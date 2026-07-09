@@ -1,1 +1,1 @@
-const C='mqa-wfm-bakery-v2';self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(['index.html','app.js','manifest.json']))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
+const C='mqa-case-first-v1';self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./manifest.json','./service-worker.js']))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));

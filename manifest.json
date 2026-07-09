@@ -1,7 +1,7 @@
 {
   "name": "MQA WFM Bakery",
   "short_name": "MQA Bakery",
-  "start_url": "index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f2ea",
   "theme_color": "#0b2f1c",
